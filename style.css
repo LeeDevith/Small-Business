@@ -1,0 +1,122 @@
+body {
+    font-family: monospace;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0px;
+}
+.header-content {
+    max-width: 1200px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hero {
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/qmraJpx/videoblocks-group-of-business-professionals-meeting-around-table-in-modern-office_rk1lzykgr_thumbnail-1080_01.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-content {
+    background-color: rgba(0,0, 0, 0.5);
+    padding: 20px;
+}
+.hero-button {
+    background-color: #ee6c4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.hero-buttin:hover {
+    background-color: #d64b2a;
+}
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+#Services {
+   padding: 20px;
+   background-color: #fff;
+   text-align: left;
+}
+#Services h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+#Services li {
+    margin-bottom: 10px;
+}
+#Services ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+#About {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+#About h2 {
+     color: #007bff;
+    margin-bottom: 15px;
+}
+#Contact {
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+}
+#Contact h2 {
+   color: #007bff;
+    margin-bottom: 15px;
+}
+#Contact p {
+    margin-bottom: 10px;
+}
+#Services li:hover,
+#Contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    #services, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
